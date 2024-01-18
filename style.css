@@ -1,0 +1,60 @@
+body::before{
+    display: block;
+    content: '';
+    height: 40px;
+}
+
+@media(min-width: 768px)
+{
+    .subscribe-input{
+        width: 50%;
+    }
+}
+
+.navigation{
+    color: #6809BD;
+}
+
+.button-first{
+    transition: 0.5s;
+}
+
+.button-first:hover{
+    background-color: white;
+    color: #6809BD;
+}
+
+.button-second{
+    transition: 0.5s;
+}
+
+.button-second:hover{
+    background-color: #6809BD;
+    border: 1px solid;
+    border-color: black;
+}
+
+.card-first{
+    transition: 0.5s;
+}
+
+.card-first:hover{
+    box-shadow: 2px 2px 20px 10px  #6809BD;
+}
+
+li .navtext-first{
+    transition: 0.5s;
+    color: #6809BD;
+}
+
+li .navtext-first:hover{
+    color: white;
+}
+
+.button-red{
+    transition: 0.5s;
+}
+
+.button-red:hover{
+    background-color: rgb(165, 2, 2);
+}
